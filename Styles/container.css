@@ -1,0 +1,63 @@
+.container{
+    margin-top: 25px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.parent_user{
+    background-color: #2483c2;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 2fr 1fr;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    width: 100%;
+
+}
+.parent_user p{
+    border-left: 1px solid black;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.user{
+    background-color: #38a9f5;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 2fr 1fr;
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+.user p{
+    padding-left: 5px;
+    border-left: 1px solid black;
+    align-self: center;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.user div{
+    padding-left: 5px;
+    border-left: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.user div button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: none;
+    border-radius: 2px;
+}
+.btn_edit i , .btn_dele i {
+    padding: 5px;
+    margin-left: 2px;
+
+}
+.btn_edit{
+    background-color: greenyellow;
+
+}
+.btn_dele{
+    background-color: rgb(234, 126, 126);
+}

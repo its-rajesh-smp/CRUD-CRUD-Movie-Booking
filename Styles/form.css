@@ -1,0 +1,112 @@
+.form_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.form_container input{
+    height: 30px;
+    width: 300px;
+    border: none;
+    background-color: #2B3467;
+    padding-left: 5px;
+    padding-right: 5px;
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 0.5px 0.5px black;
+    color: white;
+}
+.form_container input:hover{
+    background-color: #3d4887;
+}
+.form_container input::placeholder{
+    color: rgba(240, 248, 255, 0.51);
+}
+.target_key{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0.5px 0.5px black;
+}
+.target_key:hover{
+    background-color: #2b346774;
+}
+.target_key i{
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+.release_key{
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    box-shadow: 0.5px 0.5px black;
+    border-radius: 5px;
+}
+.release_key:hover{
+    background-color: antiquewhite;
+}
+.release_key i{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: blue;
+}
+
+
+
+
+
+
+/* Input Field For User name,email */
+.form_appointment_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.name , .email{
+    background-color: #ECF9FF;
+    border: none;
+    height: 20px;
+    width: 150px;
+    padding-left: 5px;
+    padding-right: 5px;
+    outline: none;
+    box-shadow: 0.5px 0.5px black;
+}
+.email::placeholder , .name::placeholder {
+    color: #2B3467;
+}
+
+.email:hover , .name:hover{
+    background-color: #d4e4ee
+}
+
+.name{
+    margin-right: 1px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.email{
+    margin-left: 1px;
+    margin-right: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.addUser_btn{
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0.5px 0.5px black;
+}
+.addUser_btn:hover{
+    background-color: antiquewhite;
+}
